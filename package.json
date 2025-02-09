@@ -1,0 +1,16 @@
+{
+  "name": "openai-api-author",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered book writing system",
+  "main": "examples/drake_legacy/create.mjs",
+  "scripts": {
+    "start": "node examples/drake_legacy/create.mjs",
+    "test": "node tests/unit/core/test_book_writer.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "docx": "^8.0.0",
+    "dotenv": "^16.0.0"
+  }
+} 
